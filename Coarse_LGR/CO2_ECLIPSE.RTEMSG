@@ -1,0 +1,12 @@
+<rte>
+<comment date="" source="slbrun" time="">Workflow starting task: CO2_ECLIPSE</comment>
+<comment date="" source="slbrun" time="">Submission Command: C:\ecl\2019.3\bin\pc_x86_64\e300.exe CO2_ECLIPSE</comment>
+<comment date="" source="slbrun" time="">E300 has finished</comment>
+<comment date="" source="slbrun" time="">Workflow starting task: CO2_ECLIPSE summary conversion</comment>
+<comment date="" source="slbrun" time="">Creating temp conversion directory convert_20231205020047_23d75dfb</comment>
+<comment date="" source="slbrun" time="">Submission Command: C:\ecl\2019.3\bin\pc_x86_64\ConvertSummaryData2DataBase.exe CO2_ECLIPSE.DATA convert_20231205020047_23d75dfb</comment>
+<comment date="" source="slbrun" time="">Conversion has finished</comment>
+<comment date="" source="slbrun" time="">Removing temp conversion directory convert_20231205020047_23d75dfb</comment>
+<comment date="" source="slbrun" time="">Workflow has finished</comment>
+<comment date="" source="slbrun" time="">Session in progress.</comment>
+</rte>

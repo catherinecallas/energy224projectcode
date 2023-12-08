@@ -1,0 +1,103 @@
+<eclipse>
+<message date="1/1/2023" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+     156681 KBYTES                                                       
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                        
+ USING  OLDTRAN                                                          
+</message>
+<comment date="1/1/2023" time="0.00000000000000">
+ NO NON-NEIGHBOUR CONNECTIONS FOUND                                      
+</comment>
+<message date="1/1/2023" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 369630                                        
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+     425456 KBYTES                                                       
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+  5015218 CHARACTER VARIABLES USED                                       
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ OPENING WELL I1       AT TIME      0.00   DAYS                          
+ CONTROLLED BY WATER RATE                                                
+</message>
+<warning date="14/1/2023" time="13.00000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+<warning date="10/2/2023" time="40.00000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+<warning date="2/5/2023" time="121.00000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+<warning date="18/9/2023" time="260.50000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+<warning date="5/2/2024" time="400.00000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+<warning date="23/8/2024" time="600.00000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+<warning date="11/3/2025" time="800.00000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+<warning date="27/9/2025" time="1000.00000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+<warning date="15/4/2026" time="1200.00000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+<warning date="1/11/2026" time="1400.00000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+<warning date="20/5/2027" time="1600.00000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+<warning date="6/12/2027" time="1800.00000000000000">
+ LINEAR EQUATION CONVERGENCE PROBLEMS WERE EXPERIENCED THIS              
+ TIME-STEP. IN SOME CASES INCREASING LITMAX                              
+ (TUNING KEYWORD) AND/OR NSTACK MAY HELP.                                
+ THE SIMULATION MAY RUN FASTER WITH THE CPR LINEAR SOLVER.               
+</warning>
+</eclipse>

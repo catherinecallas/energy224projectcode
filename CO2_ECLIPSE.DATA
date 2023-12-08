@@ -1,0 +1,235 @@
+----------------------------------------
+-- Cartesian 40X40X20 for OEE
+----------------------------------------
+
+----------------------------------------
+RUNSPEC
+----------------------------------------
+
+TITLE
+Publication Model
+
+
+DIMENS
+107 107 30 /
+
+FIELD
+
+START
+1 JAN 2023/
+
+COMPS
+3 /
+
+ENDSCALE
+/
+
+OPTIONS3
+  7* 1 /
+-- adds wat-gas capillary pressure to water phase rather than gas phase
+-- reccommended for problems with high Pc
+
+FULLIMP
+
+WELLDIMS
+--20 100 *7 6/
+20 100 /
+
+UDQDIMS
+3* 2 0 1 /
+
+TABDIMS
+ 2 1 40 40 3/
+
+SATOPTS
+ HYSTER /
+
+HWELLS
+--allows non-vertical wells
+
+SOLID
+
+CO2STORE
+
+UNIFOUT
+-- unify output files
+--UNIFIN
+-- input files are unified (not in this case)
+----------------------------------------
+GRID
+----------------------------------------
+--JFUNC
+-- The value of 14.14, is sqrt(reference Perm / reference Poro) = sqrt(40/0.2) = 14.14 (different from the 50x50 case where value is 15)
+-- Decatur sqrt(40/0.185) = 
+-- Then, enter the reference Pc-curve using keyword: SGAS
+--GAS 1* 28.226171847261188 /
+
+DXV
+107*32 /
+
+DYV
+107*32 /
+
+DZV
+30*3.2 /
+
+TOPS
+11449*4865
+11449*4868.2
+11449*4871.4
+11449*4874.6
+11449*4877.8
+11449*4881
+11449*4884.2
+11449*4887.4
+11449*4890.6
+11449*4893.8
+11449*4897
+11449*4900.2
+11449*4903.4
+11449*4906.6
+11449*4909.8
+11449*4913
+11449*4916.2
+11449*4919.4
+11449*4922.6
+11449*4925.8
+11449*4929
+11449*4932.2
+11449*4935.4
+11449*4938.6
+11449*4941.8
+11449*4945
+11449*4948.2
+11449*4951.4
+11449*4954.6
+11449*4957.8
+/
+
+INCLUDE
+PORO.INC /
+
+INCLUDE
+PERMX.INC /
+
+INCLUDE
+PERMY.INC /
+
+INCLUDE
+PERMZ.INC /
+
+INCLUDE
+MULTPVEDGE.INC /
+
+MINPV
+0.00001 /
+
+RPTGRID
+ 'DEPTH' /
+-- request output of grid data to the PRT file
+
+INIT
+-- request init file (summary of data entered in GRID, PROPS & REGIONS)
+----------------------------------------
+PROPS
+----------------------------------------
+
+INCLUDE
+PVT.INC /
+
+DENSITY
+1* 71.78 1* /
+
+ROCK
+2911 3.88e-5 /
+
+RTEMP
+122.6 /
+
+CNAMES
+H2O CO2 NACL /
+
+ZI
+1.0 0.0 0.0/
+
+PVTW
+2141.34    0.984598  0.00001  1.0  0 /
+
+EHYSTR
+4* KR /
+--4* KR NEW
+
+--Regions section------------------------------------------------------
+REGIONS
+
+SATNUM
+343470*1 /
+
+IMBNUM
+343470*2 /
+
+-- define FIP region to output CO2 gas average sat at top layer
+FIPNUM
+343470*1 /
+
+----------------------------------------
+SOLUTION
+----------------------------------------
+
+EQUIL
+4937.7 2141.34 0 0 /
+
+RPTRST
+BASIC=2 DENW DENO DENG FLOGAS FLOOIL FLOWAT FLORES KRG KRO KRW PRESSURE SGAS SOIL SWAT/ 
+----------------------------------------
+SUMMARY
+----------------------------------------
+
+-- FIELD PROPERTIES
+FWCD
+FGCDI
+FGCDM
+FUDRMTOT 
+
+-- REGION PROPERTIES
+--RWCD
+--3/
+--RGCDI
+--3/
+--RGCDM
+--3/
+
+-- USER DEFINED FIELD PROPERTY
+--RUDRM
+--3/
+
+
+WBHP
+/
+
+INCLUDE
+BPR.IN
+/
+
+INCLUDE
+BGSAT.IN
+/
+
+RUNSUM
+EXCEL
+
+RPTONLY
+----------------------------------------
+SCHEDULE
+----------------------------------------
+RPTRST
+BASIC=2 DENW DENO DENG FLOGAS FLOOIL FLOWAT FLORES KRG KRO KRW PRESSURE SGAS SOIL SWAT/ 
+
+RPTSCHED
+'FLOWAT=3' 'FLOOIL=3' /
+
+INCLUDE
+base.sched /
+--SCHEDULE.in /
+
+END

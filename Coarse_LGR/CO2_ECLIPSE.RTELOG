@@ -1,0 +1,10 @@
+INFO 2023-12-04 18:00:38,285 ERE-vAPC10 Workflow starting task: CO2_ECLIPSE
+INFO 2023-12-04 18:00:38,644 ERE-vAPC10 Submission Command: C:\ecl\2019.3\bin\pc_x86_64\e300.exe CO2_ECLIPSE
+INFO 2023-12-04 18:00:47,910 ERE-vAPC10 E300 has finished
+INFO 2023-12-04 18:00:47,941 ERE-vAPC10 Workflow starting task: CO2_ECLIPSE summary conversion
+INFO 2023-12-04 18:00:47,957 ERE-vAPC10 Creating temp conversion directory convert_20231205020047_23d75dfb
+INFO 2023-12-04 18:00:47,957 ERE-vAPC10 Submission Command: C:\ecl\2019.3\bin\pc_x86_64\ConvertSummaryData2DataBase.exe CO2_ECLIPSE.DATA convert_20231205020047_23d75dfb
+INFO 2023-12-04 18:00:50,035 ERE-vAPC10 Conversion has finished
+INFO 2023-12-04 18:00:50,051 ERE-vAPC10 Removing temp conversion directory convert_20231205020047_23d75dfb
+INFO 2023-12-04 18:00:50,066 ERE-vAPC10 Workflow has finished
+INFO 2023-12-04 18:00:50,066 ERE-vAPC10 Session in progress.

@@ -1,0 +1,236 @@
+<eclipse>
+<message date="0/0/0" time="0.00000000000000">
+ Shift Water Pressure due to Pc in GASWAT Activated                         
+</message>
+<message date="0/0/0" time="0.00000000000000">
+ LGR option enabled                                                         
+</message>
+<message date="0/0/0" time="0.00000000000000">
+ Non-directional End-Point-Scaling requested                                
+</message>
+<message date="0/0/0" time="0.00000000000000">
+ CO2 Storage option activated                                               
+</message>
+<message date="0/0/0" time="0.00000000000000">
+ Neither DIRECT or DIRECT and IRREVERS specified                            
+ Non-directional Rel Perms assumed                                          
+</message>
+<comment date="1/1/2023" time="0.00000000000000">
+ Since neither GRIDOPTS or REGDIMS specified in the                         
+ Runspec section, the number of FLUXNUM regions will                        
+ be set using item 11 of TABDIMS keyword                                    
+</comment>
+<message date="1/1/2023" time="0.00000000000000">
+ The message service has been activated                                     
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Checking for licenses                                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Checking for licenses                                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Checking for licenses                                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Checking for licenses                                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ ECLIPSE license expires        23-Jan-2026                                 
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Compositional license expires  23-Jan-2026                                 
+</message>
+<warning date="1/1/2023" time="0.00000000000000">
+ 504 values of TOPS out of 2904 are undefined. If only first layer of       
+ TOPS supplied, values for subsequent layers will be set up first.          
+</warning>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file PERMX_C.ECLIN                                    
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file PERMY_C.ECLIN                                    
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file PERMZ_C.ECLIN                                    
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file PORO_C.ECLIN                                     
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file MULTPVEDGE_C.INC                                 
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file LGR.ECLIN                                        
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_1x.ECLIN                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_1y.ECLIN                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_1z.ECLIN                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_1poro.ECLIN                                   
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_2x.ECLIN                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_2y.ECLIN                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_2z.ECLIN                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_2poro.ECLIN                                   
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_3x.ECLIN                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_3y.ECLIN                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_3z.ECLIN                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file I1_3poro.ECLIN                                   
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Processing GRID data                                                       
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file TRANX_C.ECLIN                                    
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file TRANY_C.ECLIN                                    
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file TRANZ_C.ECLIN                                    
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Processing EDIT data                                                       
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+  The WARP linear solver has   1 sub-grids                                  
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Model has 3276 active cells                                                
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ 15 transmissibilities to inactive cells                                    
+ Have been reset to zero                                                    
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file PVT.INC                                          
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ ROCK specified but ROCKOPTS not yet read                                   
+ ROCK will default to PVT Region                                            
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Processing PROPS data                                                      
+</message>
+<warning date="1/1/2023" time="0.00000000000000">
+ Connate gas endpoint .280000 reset to 0 for table 2                        
+</warning>
+<message date="1/1/2023" time="0.00000000000000">
+ Setting unspecified solid NACL density                                     
+ to   135.47 lb/ft3   (Keyword SDREF)                                       
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Processing REGIONS data                                                    
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ End point scaling enabled                                                  
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ No FIELDSEP data found                                                     
+ Will use flash to standard conditions                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Processing SOLUTION data                                                   
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Fully implicit option used                                                 
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ This run is initialized by equilibration.                                  
+ If the TEMPI keyword has been specified, it will be ignored.               
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Compositional equilibration option 1                                       
+ Single phase equilibration : total composition specified                   
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Datum depth set to 4937.700                                                
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ No inital solids                                                           
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Processing SUMMARY data                                                    
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Opening INCLUDE file                                                       
+ BGSAT_C.INC                                                                
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Opening INCLUDE file                                                       
+ BPR_C.INC                                                                  
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Opening INCLUDE file                                                       
+ LBGSAT_C.ECLIN                                                             
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Opening INCLUDE file                                                       
+ LBPR_C.ECLIN                                                               
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ 6066 summary file items requested                                          
+ TIME     and YEARS    also available in summary file                       
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Run summaries requested                                                    
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Run summary output requested in Excel format                               
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Starting processing of SCHEDULE section                                    
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Reading from INCLUDE file base_C.sched                                     
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ RUDRM initialised as user defined quantity no. 1                           
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ RUDRM definition parsed. UPDATE status set to ON.                          
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ FUDRMTOT initialised as user defined quantity no. 2                        
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ FUDRMTOT definition parsed. UPDATE status set to ON.                       
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Connection ordering method set to INPUT for well I1                        
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Control mode GAS      set for well I1                                      
+</message>
+<message date="1/1/2023" time="0.00000000000000">
+ Number of NNCs is 375                                                      
+</message>
+<message date="30/4/2028" time="1946.25000000000000">
+ Producing run summaries                                                    
+</message>
+<message date="30/4/2028" time="1946.25000000000000">
+ Run summaries complete                                                     
+</message>
+</eclipse>
